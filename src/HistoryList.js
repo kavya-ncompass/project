@@ -29,9 +29,9 @@ function HistoryList(props) {
 
                 return ( 
                 <div>
-                <li>word:{data}</li>
+                <li>words:{data}</li>
                 <p>vowels:{vowelsCount}</p>
-                <p>consonants:{consonantCount}</p>
+                <p>consonant:{consonantCount}</p>
                 </div>
                 );
              })
